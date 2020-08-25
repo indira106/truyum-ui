@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+    <script src="script.js">
+    </script>
+<style>
+    header{
+        height: 60px;
+        color: #ffffff;
+        background-color: #5876a8;
+        }
+    .col-3{
+        float: left;
+        width: 33%;
+        display: inline-block;
+    }
+    .mainhead{
+        padding-left: 30px;
+        font-family: sans-serif;
+        padding-bottom: 2px;
+        
+    }
+    .menu li{
+        list-style-type: none;
+        display: inline;
+        padding-right: 70px;
+    }
+        section{
+            font-family: sans-serif;
+            margin: 50px;
+            padding: 50px;
+            height: 55vh;
+        }
+    .cart_table{
+                font-family: sans-serif;
+                border-collapse: collapse;
+                width: 100%;
+               }
+    td,th{
+            padding: 10px;
+    }
+    footer{
+        background-color: #807e78;
+        font-family: sans-serif;
+        padding-top: 1.1px;
+        height: 30px;
+    }
+    </style>
+    <body>
+    <header>
+    <div class="col-3">
+        <h1 class="mainhead">truYum
+        </h1>
+    </div>
+    <div class="col-3">
+        <img src="fork.jpg" class="image1" height="60px" width="60px">
+    </div>
+    <div class="col-3">
+        <ul class="menu">
+        <li><a href="#" style="color: white">Menu</a></li>
+        <li><a href="#" style="color: white">Cart</a></li>
+        </ul>
+    </div>
+    </header>
+    <section>
+        <h1>Cart</h1>
+        <table class="cart_table">
+            <tr>
+            <td><strong>Name</strong></td>
+            <td><strong>Free Delivery</strong></td>
+            <td><strong>Price</strong></td>
+            </tr>
+            <tr>
+            <td>Sandwich</td>
+            <td>Yes</td>
+            <td>Rs. 99</td>
+            <td><a href="cart.html" onclick="deleted()">Delete</a></td></tr>
+            <tr><td>Burger</td>
+            <td>No</td>
+            <td>Rs. 129</td>
+            <td><a href="cart.html" onclick="deleted()">Delete</a></td></tr>
+            <tr><td>Pizza</td>
+            <td>No</td>
+            <td>Rs. 149</td>
+            <td><a href="cart-notification.html">Delete</a></td></tr>
+            <tr><td></td>
+            <td><strong>total</strong></td>
+            <td><strong>Rs 377</strong></td>
+            <td></td></tr>
+            
+        </table></section>
+    <footer>Copyright 2019</footer>
+    </body>
+</html>
